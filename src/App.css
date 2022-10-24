@@ -1,19 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+
+:root {
+  --footer-color: #d2d5d4;
+}
+
+* {
+  font-family: "Barlow", sans-serif;
+}
+/* Footer.js */
 .footer {
   background-color: #11592e;
 }
 
 .text-footer {
-  color: #d2d5d4;
+  color: var(--footer-color);
 }
 
 .span-text-footer {
   font-size: 25px;
 }
 
+.anchor-footer {
+  text-decoration: none;
+  color: var(--footer-color);
+}
+
+.anchor-footer:hover {
+  color: var(--footer-color);
+}
+
+/* Home.js / About.js / Contact.js */
+.section-title {
+  height: 10vh;
+  background-color: #ffffff;
+  background-color: #11592E;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23004d23' %3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='1'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+  /* background by SVGBackgrounds.com */
+  background-repeat: repeat;
+  color: white;
+}
+
+/* app.js */
+#header-bg {
+  background-color: #333;
+}
+
+#header-img {
+  height: 50vh;
+  background-image: url("./assets/images/main.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+}
+
+/* Misc */
 .span-red {
-    color: red;
+  color: red;
+  font-weight: 900;
 }
 
 .span-red::before {
-    content: ' ';
+  content: " ";
+}
+
+.divider {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+@media (max-width: 1025px) {
+  .divider {
+    display: block;
+    height: 1px;
+    visibility: hidden;
+  }
 }

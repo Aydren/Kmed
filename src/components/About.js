@@ -1,8 +1,10 @@
 function About() {
   return (
     <div className="about-page">
-      <h1>About page</h1>
-      <p>hi princess</p>
+      <section className="section-title d-flex align-items-center ps-4">
+        <h1>About page</h1>
+      </section>
+      <p></p>
     </div>
   );
 }

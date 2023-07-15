@@ -14,6 +14,7 @@ function Email() {
   const [load, setLoad] = useState(false);
 
   const sendEmail = e => {
+    setMessage("");
     setLoad(true);
     e.preventDefault();
     emailjs

@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Link, Route } from "react-router-dom";
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import About from "./About";
@@ -13,27 +12,23 @@ function Navi() {
         collapseOnSelect
         bg="dark"
         expand="md"
-        defaultActiveKey="/"
+        defaultactivekey="/"
         className="navbar navbar-expand-sm navbar-dark px-4"
       >
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="justify-content-center text-center w-100 navbar-nav">
-            <Nav.Link>
-              <Link class="text-decoration-none text-light" to="/">
-                Home
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link class="text-decoration-none text-light" to="/about">
-                About Us
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link class="text-decoration-none text-light" to="contactUs">
-                Contact
-              </Link>
-            </Nav.Link>
+            <Link className="text-decoration-none text-light me-4" to="/">
+              Home
+            </Link>
+
+            <Link className="text-decoration-none text-light me-4" to="/about">
+              About Us
+            </Link>
+
+            <Link className="text-decoration-none text-light" to="contactUs">
+              Contact
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -1,7 +1,13 @@
+import DataProviders from "./DataProviders";
+
 function Providers() {
   return (
     <div className="providers-section">
-      <h1>Providers page</h1>;
+      {/* Providers section */}
+      <main className="dark-bg">
+        <h1 className="text-white align-items-center ps-4 pt-2">Meet our Providers</h1>
+        <DataProviders />
+      </main>
     </div>
   );
 }

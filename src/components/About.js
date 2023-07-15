@@ -1,10 +1,16 @@
+import Insurances from "./Insurances";
+import Providers from "./Providers";
+import Services from "./Services";
+
 function About() {
   return (
     <div className="about-page">
       <section className="section-title d-flex align-items-center ps-4">
         <h1>About page</h1>
       </section>
-      <p></p>
+      <Insurances />
+      <Services />
+      <Providers />
     </div>
   );
 }

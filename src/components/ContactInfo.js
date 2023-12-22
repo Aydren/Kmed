@@ -15,17 +15,17 @@ export function ContactInfo() {
         </a>{" "}
         ext.2
       </div>
-      <span className="span-red">Fax:</span> 725-266-7366
+      <span className="span-red">Fax: </span>725-266-7366
       <br />
-      <span className="span-red">Address (Office):</span>
-      2831 St Rose Pkwy, Suite 200, Henderson, NV 89052
+      <span className="span-red">Address: </span>
+      2625 S Rainbow Blvd STE C102, Las Vegas, NV 89146
+      {/* 
+      Commenting out code for email
+      <br /> 
+      <span className="span-red">Email: </span>info@kmedhealthservices.com 
+      */}
       <br />
-      <span className="span-red">Address (Billing):</span> 2831 St. Rose Pkwy,
-      Ste 200, Henderson, NV 89052
-      <br />
-      <span className="span-red">Email:</span> info@kmedhealthservices.com
-      <br />
-      <span className="span-red">Hours:</span> Mon-Fri: 8am-5pm, Sat-Sun: Closed
+      <span className="span-red">Hours: </span>Mon-Fri: 8am-5pm, Sat-Sun: Closed
     </div>
   );
 }

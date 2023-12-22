@@ -26,7 +26,7 @@ function Navi() {
               About Us
             </Link>
 
-            <Link className="text-decoration-none text-light" to="contactUs">
+            <Link className="text-decoration-none text-light" to="contact">
               Contact
             </Link>
           </Nav>
@@ -36,7 +36,7 @@ function Navi() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contactUs" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </BrowserRouter>

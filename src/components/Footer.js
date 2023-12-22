@@ -8,7 +8,7 @@ function Footer() {
           <span className="span-red">K</span>eeping
           <span className="span-red">M</span>edical
           <span className="span-red">E</span>xperiences
-          <span className="span-red">D</span>ignified at all times!
+          <span className="span-red">D</span>ignified
         </div>
         <p>
           We at K-Med Health Services, presue to be the best providers of

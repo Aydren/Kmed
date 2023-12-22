@@ -8,13 +8,6 @@ function DataProviders() {
       photo: "https://via.placeholder.com/150",
     },
     {
-      name: "Dao Huynh, APRN, FNP-BC",
-      title: "Primary Care Provider",
-      accepting: "Accepting New Patients",
-      info: "hello world",
-      photo: "https://via.placeholder.com/150",
-    },
-    {
       name: "Jingle Kavinta, APRN, FNP-C",
       title: "Primary Care Provider",
       accepting: "Accepting New Patients",
@@ -41,8 +34,8 @@ function DataProviders() {
             <img src="https://via.placeholder.com/200" alt="Provider" />
           </div>
           <div className="px-2">
-            <h1>{provider.name}</h1>
-            <h2>{provider.title}</h2>
+            <h2>{provider.name}</h2>
+            <h3>{provider.title}</h3>
             <p>{provider.accepting}</p>
             {/* <p>{provider.info}</p> removed until we get a description from our providers */}
           </div>

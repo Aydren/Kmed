@@ -2,7 +2,7 @@ import { useState } from "react";
 import Alert from "react-bootstrap/Alert";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import emailjs from "@emailjs/browser";
+import emailjs, { sendForm } from "@emailjs/browser";
 import LoadSpinner from "./LoadSpinner";
 
 const EMAILJS_SERVICE_ID = "service_a6rr2xc-111";
